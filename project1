@@ -2,13 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jane Doe | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Alex Smith | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f2f2fa;
+            color: #282828;
+        }
+        header {
+            background: #4846cf;
+            color: #fff;
+            padding: 40px 0 18px 0;
+            text-align: center;
+        }
+        nav {
+            margin-top: 12px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 14px;
+            font-weight: bold;
+        }
+        section {
+            margin: 36px auto 0 auto;
+            max-width: 600px;
+            background: #fff;
+            padding: 28px 24px;
+            border-radius: 9px;
+            box-shadow: 0 4px 12px rgba(80,80,160,0.10);
+        }
+        h2 {
+            color: #4846cf;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 6px;
+        }
+        .project {
+            margin-bottom: 18px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        footer {
+            text-align: center;
+            color: #999;
+            padding: 16px 0 8px 0;
+            font-size: 1em;
+            background: #ececff;
+            margin-top: 26px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Harshil/h1>
-        <p>Web Developer | Designer | Music Lover</p>
+        <h1>Alex Smith</h1>
+        <p>Coding Enthusiast · Traveler · Coffee Drinker</p>
         <nav>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
@@ -18,29 +67,29 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! I'm Harshil, a passionate web developer who loves creating user-friendly websites.<br>
-        When I'm not coding, you'll find me playing guitar or exploring new coffee shops.</p>
+        <p>Hello, I’m Alex! I love building cool things for the web, whether that’s a fun website or a handy little app.<br>
+        Besides coding, I enjoy getting lost in travel blogs and sampling different coffees around my city.</p>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
         <div class="project">
-            <h3>Recipe Finder</h3>
-            <p>A web app to discover recipes using ingredients you already have at home.</p>
+            <h3>Weather Glance</h3>
+            <p>A simple weather app that helps you decide if you need an umbrella today.</p>
         </div>
         <div class="project">
-            <h3>Travel Blog</h3>
-            <p>My adventures around the world, told through photos and stories.</p>
+            <h3>Personal Blog</h3>
+            <p>A collection of my thoughts, travel photos, and coding stories.</p>
         </div>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email me at <a href="mailto:jane@example.com">jane@example.com</a></p>
+        <p>Feel free to reach out: <a href="mailto:alex.smith@email.com">alex.smith@email.com</a></p>
     </section>
 
     <footer>
-        &copy; 2024 Harshil
+        &copy; 2024 alex smith
     </footer>
 </body>
 </html>

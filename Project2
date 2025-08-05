@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SunnySide | Welcome!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f4fbfd;
+            margin: 0;
+            color: #263238;
+        }
+        header {
+            background: #4fc3f7;
+            color: #fff;
+            padding: 48px 0 24px 0;
+            text-align: center;
+        }
+        nav {
+            margin-top: 18px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 520px;
+            margin: 40px auto 0 auto;
+            background: #fff;
+            padding: 32px 22px;
+            border-radius: 14px;
+            box-shadow: 0 2px 12px rgba(80,180,220,0.12);
+        }
+        h2 {
+            color: #4fc3f7;
+            margin-top: 0;
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+        ul li {
+            font-size: 1.1em;
+            margin: 14px 0;
+        }
+        .cta {
+            display: block;
+            margin: 36px auto 0 auto;
+            background: #4fc3f7;
+            color: #fff;
+            border: none;
+            padding: 15px 36px;
+            border-radius: 6px;
+            font-size: 1.2em;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .cta:hover {
+            background: #039be5;
+        }
+        footer {
+            text-align: center;
+            color: #888;
+            padding: 16px 0;
+            background: #e3f2fd;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to SunnySide!</h1>
+        <p>Your daily boost of positivity & productivity 🌞</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#join">Get Started</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About SunnySide</h2>
+        <p>We believe every day has a sunny side! At SunnySide, we help you organize tasks, track your mood, and connect with uplifting people. Everyone is welcome, and every small victory counts!</p>
+    </section>
+
+    <section id="features">
+        <h2>What We Offer</h2>
+        <ul>
+            <li>🌟 Simple & cheerful to-do lists</li>
+            <li>😊 Daily mood check-ins</li>
+            <li>🤗 Friendly community spaces</li>
+            <li>🔒 Your privacy, always respected</li>
+        </ul>
+    </section>
+
+    <section id="join">
+        <h2>Ready to Shine?</h2>
+        <p>Join SunnySide today and bring more positivity into your routine!</p>
+        <a href="#" class="cta">Start Your Journey</a>
+    </section>
+
+    <footer>
+        &copy; 2024 SunnySide. Sending you sunny vibes every day! ☀️
+    </footer>
+</body>
+</html>

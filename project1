@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jane Doe | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Harshil/h1>
+        <p>Web Developer | Designer | Music Lover</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Harshil, a passionate web developer who loves creating user-friendly websites.<br>
+        When I'm not coding, you'll find me playing guitar or exploring new coffee shops.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Recipe Finder</h3>
+            <p>A web app to discover recipes using ingredients you already have at home.</p>
+        </div>
+        <div class="project">
+            <h3>Travel Blog</h3>
+            <p>My adventures around the world, told through photos and stories.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email me at <a href="mailto:jane@example.com">jane@example.com</a></p>
+    </section>
+
+    <footer>
+        &copy; 2024 Harshil
+    </footer>
+</body>
+</html>
